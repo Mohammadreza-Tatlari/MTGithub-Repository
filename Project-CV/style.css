@@ -1,0 +1,87 @@
+:root {
+  --primary-Color-Background: rgb(29, 32, 34);
+  --Green-primary-color: rgb(65,167,133);
+  --primary-border-color: rgb(41,41,41);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: aliceblue;
+  background-color: var(--primary-Color-Background);
+}
+
+li,
+a,
+button {
+  font-family: "Concert One", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+}
+
+#Main_nav_logo {
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+#nav_picture_logo {
+  width: 150px;
+  height: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav_btns {
+  list-style: none;
+}
+
+.nav_btns li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_btns li a {
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.nav_btns li :hover {
+  color: aqua;
+}
+
+.cta_navigation {
+  padding: 9px 25px;
+  background-color: var(--Green-primary-color);
+  color: black;
+  border-radius: 50px;
+  border: none;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.cta_navigation:hover {
+  background-color: var(--Green-primary-color);
+  color: azure;
+}
+/*# sourceMappingURL=style.css.map */
